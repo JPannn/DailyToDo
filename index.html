@@ -9,20 +9,28 @@
     <title>ToDoList</title>
 </head>
 <body>
-
     <div class="timeContainer">
         <h2 id="userDate" class="userDate" style="font-size: 3000"></h2>
         <h1 id="userTime" class="userTime" style="font-size: 3000"></h1>
     </div>
-
     <div class="inputContainer">
+        <span class="taskTip">Double Click to Remove A Task</span>
         <input type="text" placeholder="Tasks to Complete? (Character Limit: 50)" data-user-input maxlength="50">
         <button class="addButton"data-add-button>+</button>
     </div>
 
-    <ul class="outputContainer" data-user-output>
+    <ul class="outputContainer" data-user-output></ul>
 
-    </ul>
+    <footer class="footer">
+        <p>
+            Created By: Justin Shawn
+            Github: <a href="https://github.com/JPannn">JPannn</a>
+        </p>
+        <p>
+            Credit: <a href="https://www.youtube.com/watch?v=-pRg_daFjfk">CodeDuck</a><br>
+            Used Tutorial to Learn How to Create a To Do List
+        </p>
+    </footer>
 
 </body>
 </html>

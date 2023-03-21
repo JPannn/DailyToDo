@@ -13,9 +13,10 @@ body{
     padding-top: 5%;
     padding-bottom: 20px;
     font-size: xx-large;
+    text-align: center;
 }
 
-.timeContainer, .inputContainer, .outputContainer {
+.timeContainer, .inputContainer, .outputContainer, footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -31,4 +32,23 @@ body{
     border-radius: 10px;
     font-size: 18px;
     width:auto;
+}
+
+.taskTip {
+    font-size: 21px;
+}
+
+footer {
+    /* bottom center of window */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(49, 39, 39);
+    color: rgb(181, 45, 45);
+    text-align: center;
+}
+footer > p > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
